@@ -41,3 +41,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase files (optional if you don't want to commit secrets)
+android/app/google-services.json
+firebase.json
+lib/firebase_options.dart
+
+# Other
+pubspec.lock
